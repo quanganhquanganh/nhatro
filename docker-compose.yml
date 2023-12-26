@@ -24,6 +24,7 @@ services:
     build: ./client
     volumes:
       - ./client:/app
+      - /app/node_modules
     ports:
       - 3000:3000
     depends_on:
@@ -35,6 +36,7 @@ services:
     build: ./server
     volumes:
       - ./server:/app
+      - /app/node_modules
     ports:
       - 5000:5000
     depends_on:
