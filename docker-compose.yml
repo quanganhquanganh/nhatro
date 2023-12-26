@@ -1,0 +1,50 @@
+version: '3'
+services:
+  db:
+    image: mysql:8.0.19
+    volumes:
+      - ./hustcare.sql:/docker-entrypoint-initdb.d/hustcare.sql
+    ports:
+      - 3306:3306
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: "hustcare"
+      MYSQL_USER: "admin"
+      MYSQL_PASSWORD: "123456"
+      MYSQL_ROOT_PASSWORD: "123456"
+    networks:
+      - default
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 1s
+      timeout: 5s
+      retries: 10
+
+  client:
+    build: ./client
+    volumes:
+      - ./client:/app
+    ports:
+      - 3000:3000
+    depends_on:
+      - db
+    networks:
+      - default
+
+  server:
+    build: ./server
+    volumes:
+      - ./server:/app
+    ports:
+      - 5000:5000
+    depends_on:
+      db:
+        condition: service_healthy
+    links:
+      - db
+    networks:
+      - default
+
+networks:
+  default:
+    driver: bridge

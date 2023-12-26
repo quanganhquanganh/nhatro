@@ -38,5 +38,5 @@ const port = process.env.PORT || 8888
 
 
 const listener =  server.listen(port, () => {
-    console.log(`ervers is running on the port ${listener.address().port}`);
+    console.log(`Servers is running on the port ${listener.address().port}`);
 })
