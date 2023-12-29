@@ -48,7 +48,7 @@ function App() {
     dispatch(actions.getProvinces());
   }, []);
   useEffect(() => {
-    const socketI = io("http://localhost:5000", { transports: ['websocket'] })
+    const socketI = io(process.env.REACT_APP_SERVER, { transports: ['websocket'] })
     socketI.emit("user", { token })
     setSocket(socketI)
   }, [token])

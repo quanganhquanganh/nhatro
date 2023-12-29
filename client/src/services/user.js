@@ -65,7 +65,7 @@ export const apiUpdateUser = (payload) => {
         try {
             const response = await axiosConfig({
                 method: 'put',
-                url: 'http://localhost:5000/api/v1/user/update',
+                url: '/api/v1/user/update',
                 data: payload
             })
             resolve(response)
@@ -81,7 +81,7 @@ export const apiUpdatePasswoodUser = (payload) => {
         try {
             const response = await axiosConfig({
                 method: 'put',
-                url: 'http://localhost:5000/api/v1/user/update-passwood',
+                url: '/api/v1/user/update-passwood',
                 data: payload
             })
             resolve(response)
@@ -97,7 +97,7 @@ export const apiGetUserByPhone = (payload) => {
         try {
             const response = await axiosConfig({
                 method: 'get',
-                url: 'http://localhost:5000/api/v1/user/get-user',
+                url: '/api/v1/user/get-user',
                 params: payload
             })
             resolve(response)
@@ -113,7 +113,7 @@ export const apiCreateNewPassword = (payload) => {
         try {
             const response = await axiosConfig({
                 method: 'put',
-                url: 'http://localhost:5000/api/v1/user/create-passwood',
+                url: '/api/v1/user/create-passwood',
                 data: payload
             })
             resolve(response)

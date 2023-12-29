@@ -120,7 +120,7 @@ export const apiCreatePost = (payload) => {
         try {
             const response = await axiosConfig({
                 method: 'post',
-                url: `http://localhost:5000/api/v1/post/create-new`,
+                url: `/api/v1/post/create-new`,
                 data: payload
             })
             resolve(response)
@@ -137,7 +137,7 @@ export const apiGetPostsLimitAdmin = (query) => {
         try {
             const response = await axiosConfig({
                 method: 'get',
-                url: `http://localhost:5000/api/v1/post/limit-admin`,
+                url: `/api/v1/post/limit-admin`,
                 params: query
             })
             resolve(response)
@@ -154,7 +154,7 @@ export const apiUpdatePost = (payload) => {
         try {
             const response = await axiosConfig({
                 method: 'put',
-                url: `http://localhost:5000/api/v1/post/update`,
+                url: `/api/v1/post/update`,
                 data: payload
             })
             resolve(response)
@@ -171,7 +171,7 @@ export const apiDeletePost = (postId) => {
         try {
             const response = await axiosConfig({
                 method: 'delete',
-                url: `http://localhost:5000/api/v1/post/delete`,
+                url: `/api/v1/post/delete`,
                 params: { postId }
             })
             resolve(response)
@@ -189,7 +189,7 @@ export const apiCreatePostLike = (postId) => {
         try {
             const response = await axiosConfig({
                 method: 'post',
-                url: `http://localhost:5000/api/v1/post/post-like`,
+                url: `/api/v1/post/post-like`,
                 params: { postId }
             })
             resolve(response)
@@ -205,7 +205,7 @@ export const apiDeletePostLike = (postId) => {
         try {
             const response = await axiosConfig({
                 method: 'delete',
-                url: `http://localhost:5000/api/v1/post/delete-like`,
+                url: `/api/v1/post/delete-like`,
                 params: { postId }
             })
             resolve(response)
