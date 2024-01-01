@@ -26,7 +26,7 @@ io.on("connection", socket=> {
         console.log("data", data)
         if(data?.token?.length > 0) {
             const id= verifyTokenSocket(data.token)
-            socket.emit("userId", id.id)
+            socket.emit("userId", id?.id)
         }
     })
     socket.on("push_booking", data=> {
