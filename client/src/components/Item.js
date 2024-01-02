@@ -69,7 +69,7 @@ const Item = ({
       >
         <div className="w-full">
           {images.length > 0 &&
-            images
+            images.slice(0, 1)
               .filter((_i, index) => indexs.some((i) => i === index))
               ?.map((i, number) => {
                 return (

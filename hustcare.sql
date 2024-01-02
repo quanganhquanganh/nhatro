@@ -134,7 +134,13 @@ INSERT INTO `Feedbacks` (`id`, `userId`, `postId`, `titlePost`, `rating`, `conte
 (6, '6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', '156a2341-66fb-443b-bc9c-27685554007e', 'aA', 0, 'ÁAS', '2023-12-27 18:57:55', '2023-12-27 18:57:55'),
 (7, '6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', '156a2341-66fb-443b-bc9c-27685554007e', 'asas', 0, 'asas', '2023-12-27 18:57:59', '2023-12-27 18:57:59'),
 (8, '6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', '156a2341-66fb-443b-bc9c-27685554007e', 'aa', 0, 'abcd', '2023-12-27 18:58:09', '2023-12-27 18:58:09'),
-(9, '6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', '156a2341-66fb-443b-bc9c-27685554007e', 'aa', 0, 'aaaa', '2023-12-28 05:39:20', '2023-12-28 05:39:20');
+(9, '6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', '156a2341-66fb-443b-bc9c-27685554007e', 'aa', 0, 'aaaa', '2023-12-28 05:39:20', '2023-12-28 05:39:20'),
+(10,'1','1','Nhận xét phòng',5,'Phòng đẹp đấy', '2023-12-28 05:39:20', '2023-12-28 05:39:20'),
+(11,'1','2','Nhận xét phòng',5,'Phòng chất lừ', '2023-12-28 05:39:20', '2023-12-28 05:39:20'),
+(12,'1','3','Nhận xét phòng',3,'Phòng chật quá bạn ơi', '2023-12-28 05:39:20', '2023-12-28 05:39:20'),
+(13,'1','4','Nhận xét phòng',4,'Thiếu cửa số nhìn hơi bí', '2023-12-28 05:39:20', '2023-12-28 05:39:20'),
+(14,'1','5','Nhận xét phòng',5,'Phòng rộng rãi,thoáng mát!', '2023-12-28 05:39:20', '2023-12-28 05:39:20'),
+(15,'1','5','Nhận xét phòng',4,'Phòng rộ̣ng rãi nhưng ở mặt đường nên hơi ồn nha.', '2023-12-28 05:39:20', '2023-12-28 05:39:20');
 
 -- --------------------------------------------------------
 
@@ -161,7 +167,17 @@ INSERT INTO `Images` (`id`, `image`, `createdAt`, `updatedAt`) VALUES
 ('9fbf3ebf-b945-4a15-ab49-d1fc50705752', '[\"https://res.cloudinary.com/djjv3stcm/image/upload/v1702926223/phongtro123/eaar1ox4obdrjrbl3jjb.jpg\"]', '2023-12-18 19:03:46', '2023-12-18 19:03:46'),
 ('cdb408dd-5def-4dab-b467-317984dc36e6', '[\"https://res.cloudinary.com/djjv3stcm/image/upload/v1701776959/phongtro123/v6d4o8hc1jahvuihhz3b.jpg\"]', '2023-12-05 11:49:21', '2023-12-05 11:49:21'),
 ('df4481da-44d3-4fb7-8429-b4dd3353c613', '[\"https://res.cloudinary.com/djjv3stcm/image/upload/v1703741940/phongtro123/j6cawtkvg04o9xbbizyj.jpg\"]', '2023-12-28 05:39:05', '2023-12-28 05:39:05'),
-('dff974ae-b3e4-42df-b121-c451e2252a9c', '[\"https://res.cloudinary.com/djjv3stcm/image/upload/v1703326528/phongtro123/b1rkdxfomqnw8zpoywpr.jpg\"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14');
+('dff974ae-b3e4-42df-b121-c451e2252a9c', '[\"https://res.cloudinary.com/djjv3stcm/image/upload/v1703326528/phongtro123/b1rkdxfomqnw8zpoywpr.jpg\"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
+('1','[\"https://tromoi.com/uploads/members/chi.tran/TIN%20TR%E1%BB%8C/thang%2010/22606/anh-tang-3-1_1647251377.jpg\",\"https://tromoi.com/uploads/members/chi.tran/TIN%20TR%E1%BB%8C/thang%2010/22606/anh-tang-3-4_1647251360.jpg\",\"https://tromoi.com/uploads/members/chi.tran/TIN%20TR%E1%BB%8C/thang%2010/22606/anh-tang-3-5_1647251390.jpg \"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
+('2','[\"https://tromoi.com/uploads/static/TINTROMOI/thang%2012/22785/407177181_362259086280119_2694286972290018469_n.jpg \",\"https://tromoi.com/uploads/static/TINTROMOI/thang%2012/22785/407304551_362259066280121_8792032875194033950_n.jpg \",\"https://tromoi.com/uploads/static/TINTROMOI/thang%2012/22785/407304551_362259066280121_8792032875194033950_n.jpg \"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
+('3','[\"https://tromoi.com/uploads/members/chi.tran/TIN%20TR%E1%BB%8C/thang9/1809/22287/img-20230914-191656_1694831657.jpg \",\"https://tromoi.com/uploads/members/chi.tran/TIN%20TR%E1%BB%8C/thang9/1809/22287/img-20230914-191647_1694831657.jpg \",\"https://tromoi.com/uploads/members/chi.tran/TIN%20TR%E1%BB%8C/thang9/1809/22287/img-20230914-191632_1694831697.jpg \"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
+('4','[\"https://tromoi.com/uploads/members/ai.tran/tin%20tr%E1%BB%8D/thang%203/20172/z4177916371988-b6c491b2b09315744357a3d7885661b6_1679540268%20(1).jpg \",\"https://tromoi.com/uploads/members/ai.tran/tin%20tr%E1%BB%8D/thang%203/20172/z4177916331260-fe8fe14e89e7bd748b1ffc0268bd14af_1679540266%20(1).jpg \",\"https://tromoi.com/uploads/members/ai.tran/tin%20tr%E1%BB%8D/thang%203/20172/z4177916337857-c3edf6e3db51d9657a4573976f62b0e2_1679540266%20(1).jpg \"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
+('5','[\"https://tromoi.com/uploads/guest/o_1grk7aemn14t816p2r7ubsri0fg.jpeg \",\"https://tromoi.com/uploads/guest/o_1grk7aemnr0c185m29p14jii6ld.jpeg \",\"https://tromoi.com/uploads/guest/o_1grk7aemnnhr1gf9edbu1s4dke.jpeg\"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
+('6','[\"https://file4.batdongsan.com.vn/2024/01/02/20240102094757-dd5e_wm.jpg\",\"https://file4.batdongsan.com.vn/2024/01/02/20240102094836-53d7_wm.jpg\",\"https://file4.batdongsan.com.vn/2023/12/25/20231225092625-51c7_wm.jpg\"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
+('7','[\"https://file4.batdongsan.com.vn/2023/12/25/20231225190028-64b3_wm.jpg\",\"https://file4.batdongsan.com.vn/2023/12/25/20231225190027-bef5_wm.jpg\",\"https://file4.batdongsan.com.vn/2023/12/25/20231225190027-865c_wm.jpg\"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
+('8','[\"https://file4.batdongsan.com.vn/2023/12/08/20231208154514-57b3_wm.jpg\",\"https://file4.batdongsan.com.vn/2023/12/08/20231208154517-0a11_wm.jpg\"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
+('9','[\"https://file4.batdongsan.com.vn/2024/01/01/20240101100824-2576_wm.jpg\",\"https://file4.batdongsan.com.vn/2024/01/01/20240101100824-1ae4_wm.jpg\",\"https://file4.batdongsan.com.vn/2024/01/01/20240101100918-f5b7_wm.jpg\"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
+('10','[\"https://file4.batdongsan.com.vn/2023/03/29/20230329175933-8bcb_wm.jpg\",\"https://file4.batdongsan.com.vn/2023/03/29/20230329175933-1814_wm.jpg\",\"https://file4.batdongsan.com.vn/2023/03/29/20230329175933-23cb_wm.jpg\"]', '2023-12-23 10:20:14', '2023-12-23 10:20:14');
 
 -- --------------------------------------------------------
 
@@ -182,13 +198,19 @@ CREATE TABLE `Labels` (
 --
 
 INSERT INTO `Labels` (`id`, `code`, `value`, `createdAt`, `updatedAt`) VALUES
-(1, 'OUOA', 'Phòng trọ Quận Cầu Giấy', '2023-06-07 14:20:25', '2023-06-07 14:20:25'),
-(2, 'OUOH', 'Phòng trọ Phường Quan Hoa', '2023-06-07 14:22:21', '2023-06-07 14:22:21'),
-(3, 'OTOI', 'Phòng trọ Quận Bắc Từ Liêm', '2023-12-05 11:46:51', '2023-12-05 11:46:51'),
-(4, 'OARN', 'Phòng trọ Quận Ba Đình', '2023-12-05 11:49:21', '2023-12-05 11:49:21'),
-(5, 'AHOĐ', 'Share phòng Huyện Hoài Đức', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
-(6, 'ACNI', 'Share phòng Quận Bắc Từ Liêm', '2023-12-23 10:25:55', '2023-12-23 10:25:55'),
-(7, 'AANU', 'Share phòng Huyện Đan Phượng', '2023-12-28 05:39:05', '2023-12-28 05:39:05');
+(1, 'OUOA', 'Share phòng Cầu Giấy', '2023-06-07 14:20:25', '2023-06-07 14:20:25'),
+(2, 'OUOH', 'Phòng trọ Hoàng Mai', '2023-06-07 14:22:21', '2023-06-07 14:22:21'),
+(3, 'OTOI', 'Phòng trọ Hoàn Kiếm', '2023-12-05 11:46:51', '2023-12-05 11:46:51'),
+(4, 'OARN', 'Phòng trọ Đống Đa', '2023-12-05 11:49:21', '2023-12-05 11:49:21'),
+(5, 'AHOĐ', 'Share phòng Tây Hồ', '2023-12-23 10:20:14', '2023-12-23 10:20:14'),
+(6, 'ACNI', 'Phòng trọ Hai Bà Trưng', '2023-12-23 10:25:55', '2023-12-23 10:25:55'),
+(7, 'AANU', 'Share phòng Ba Đình', '2023-12-23 10:25:55', '2023-12-23 10:25:55'),
+(8, 'ABAB', 'Phòng trọ Long Biên', '2023-12-23 10:25:55', '2023-12-23 10:25:55'),
+(9, 'ABEF', 'Phòng trọ Thanh Xuân', '2023-12-23 10:25:55', '2023-12-23 10:25:55'),
+(10, 'ABMN', 'Phòng trọ Nam Từ Liêm ', '2023-12-23 10:25:55', '2023-12-23 10:25:55'),
+(11, 'ABGH', 'Share phòng Bắc Từ Liêm', '2023-12-23 10:25:55', '2023-12-23 10:25:55'),
+(12, 'ABCD', 'Share phòng Thanh Trì', '2023-12-23 10:25:55', '2023-12-23 10:25:55'),
+(13, 'OUAB', 'Phòng trọ Ba Đình', '2023-12-28 05:39:05', '2023-12-28 05:39:05');
 
 -- --------------------------------------------------------
 
@@ -214,14 +236,16 @@ CREATE TABLE `Overviews` (
 --
 
 INSERT INTO `Overviews` (`id`, `code`, `area`, `type`, `target`, `bonus`, `created`, `expire`, `createdAt`, `updatedAt`) VALUES
-('487c9ba8-c18c-4c89-ad52-b02b72e918b2', '#864466', 'Share phòng Thành phố Hà Nội', 'Share phòng', 'Tất cả', 'Tin miễn phí', 'Thứ 7, 17:25 23/12/2023', 'Invalid date', '2023-12-23 10:25:55', '2023-12-23 10:32:37'),
-('5806dcbb-9e46-40d6-8fb8-639cc64cb53b', '#549553', 'Phòng trọ Thành phố Hà Nội', 'Phòng trọ', 'Tất cả', 'Tin miễn phí', 'Thứ 3, 18:46 5/12/2023', 'Thứ 3, 18:46 12/12/2023', '2023-12-05 11:46:51', '2023-12-05 11:46:51'),
-('639db6eb-0282-4eae-92ea-c9dd539a30bb', '#994393', 'Phòng trọ Thành phố Hà Nội', 'Phòng trọ', 'Tất cả', 'Tin miễn phí', 'Thứ 3, 2:3 19/12/2023', '30/12/2023', '2023-12-18 19:03:46', '2023-12-18 19:04:53'),
-('65c5d64e-5dbc-44e2-b5a5-64093ea345ca', '#419359', 'Phòng trọQuận Cầu Giấy', 'Phòng trọ', 'Tất cả', 'Tin miễn phí', 'Thứ 4, 21:22 7/6/2023', '22/06/2023', '2023-06-07 14:22:21', '2023-06-07 15:22:25'),
-('6e5739c8-f3b1-474c-ae65-fa32b36979bb', '#883707', 'Share phòng Thành phố Hà Nội', 'Share phòng', 'Tất cả', 'Tin miễn phí', 'Thứ 5, 12:39 28/12/2023', 'Thứ 5, 12:39 4/1/2024', '2023-12-28 05:39:05', '2023-12-28 05:39:05'),
-('7e0a8b02-c7c3-4e5f-81cd-44ad93652ad3', '#844077', 'Phòng trọ Thành phố Hà Nội', 'Phòng trọ', 'Tất cả', 'Tin miễn phí', 'Thứ 3, 18:49 5/12/2023', '12/12/2023', '2023-12-05 11:49:21', '2023-12-05 11:50:30'),
-('ab5ca46a-efdc-4e29-baaf-9cbb525a73a5', '#708717', 'Phòng trọ Thành phố Hà Nội', 'Phòng trọ', 'Tất cả', 'Tin miễn phí', 'Thứ 4, 21:20 7/6/2023', 'Thứ 4, 21:20 14/6/2023', '2023-06-07 14:20:25', '2023-06-07 14:20:25'),
-('e97dbe28-2245-4090-bc62-adabb28f8239', '#711395', 'Share phòng Thành phố Hà Nội', 'Share phòng', 'Tất cả', 'Tin miễn phí', 'Thứ 7, 17:20 23/12/2023', 'Invalid date', '2023-12-23 10:20:14', '2023-12-23 10:32:40');
+('1', '#864466', 'Share phòng Thành phố Hà Nội', 'Share phòng', 'Tất cả', 'Tin miễn phí', 'Thứ 7, 17:25 23/12/2023', '30/12/2024', '2023-12-23 10:25:55', '2023-12-23 10:32:37'),
+('2', '#549553', 'Phòng trọ Thành phố Hà Nội', 'Phòng trọ', 'Tất cả', 'Tin miễn phí', 'Thứ 3, 18:46 5/12/2023', '30/12/2024', '2023-12-05 11:46:51', '2023-12-05 11:46:51'),
+('3', '#994393', 'Phòng trọ Thành phố Hà Nội', 'Phòng trọ', 'Tất cả', 'Tin miễn phí', 'Thứ 3, 2:3 19/12/2023', '30/12/2024', '2023-12-18 19:03:46', '2023-12-18 19:04:53'),
+('4', '#419359', 'Phòng trọQuận Cầu Giấy', 'Phòng trọ', 'Tất cả', 'Tin miễn phí', 'Thứ 4, 21:22 7/6/2023', '22/06/2024', '2023-06-07 14:22:21', '2023-06-07 15:22:25'),
+('5', '#883707', 'Share phòng Thành phố Hà Nội', 'Share phòng', 'Tất cả', 'Tin miễn phí', 'Thứ 6, 17:25 23/01/2024', '30/12/2024', '2023-12-28 05:39:05', '2023-12-28 05:39:05'),
+('6', '#844077', 'Phòng trọ Thành phố Hà Nội', 'Phòng trọ', 'Tất cả', 'Tin miễn phí', 'Thứ 6, 17:25 23/01/2024', '30/12/2024', '2023-12-05 11:49:21', '2023-12-05 11:50:30'),
+('7', '#708717', 'Phòng trọ Thành phố Hà Nội', 'Phòng trọ', 'Tất cả', 'Tin miễn phí', 'Thứ 6, 17:25 23/01/2024', '30/12/2024', '2023-06-07 14:20:25', '2023-06-07 14:20:25'),
+('8', '#711395', 'Share phòng Thành phố Hà Nội', 'Share phòng', 'Tất cả', 'Tin miễn phí', 'Thứ 6, 17:25 23/01/2024', '30/12/2024', '2023-12-23 10:20:14', '2023-12-23 10:32:40'),
+('9','#864466','Phòng trọ Thành phố Hà Nội','Phòng trọ','Tất cả','Tin miễn phí','Thứ 2, 17:25 01/01/2024','30/12/2024','2023-12-23 10:20:14', '2023-12-23 10:32:40'),
+('10','#864466','Share phòng Thành phố Hà Nội','Share phòng','Tất cả','Tin miễn phí','Thứ 2, 17:30 01/01/2024','30/12/2024','2023-12-23 10:20:14', '2023-12-23 10:32:40');
 
 -- --------------------------------------------------------
 
@@ -293,15 +317,16 @@ CREATE TABLE `Posts` (
 --
 
 INSERT INTO `Posts` (`id`, `title`, `star`, `labelCode`, `address`, `attributeId`, `priceCode`, `areaCode`, `provinceCode`, `categoryCode`, `description`, `status`, `userId`, `overviewId`, `imageId`, `priceNumber`, `areaNumber`, `utilities`, `createdAt`, `updatedAt`) VALUES
-('156a2341-66fb-443b-bc9c-27685554007e', 'Cho thuê phòng', '3', 'OARN', 'số nhà 1,Phường Giảng Võ,Quận Ba Đình, Thành phố Hà Nội', '83b1eddf-d6c1-411f-9b04-58c0f9430373', NULL, NULL, 'NDOE', 'code123', '\"aa\"', 'checked', '6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', '639db6eb-0282-4eae-92ea-c9dd539a30bb', '9fbf3ebf-b945-4a15-ab49-d1fc50705752', 10, 50, '', '2023-12-18 19:03:46', '2023-12-18 19:04:53'),
-('3590f3e0-5454-425b-9ec3-3ec4a5e8d81e', 'â', '0', 'AHOĐ', 'aa,Xã Cát Quế,Huyện Hoài Đức, Thành phố Hà Nội', '2e99de00-030b-4176-b05e-d930360fb637', NULL, NULL, 'NDOE', 'code 1234', '\"aa\"', 'unChecked', '6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', '42d35f70-7df7-489b-a713-b407ac33c3c1', '43e153d1-cb57-4104-90f3-07313dfa0374', 1, 10, '123', '2023-12-23 10:19:58', '2023-12-23 10:19:58'),
-('4302c6ab-75fc-4cc5-bf86-ad4f867da866', 'aaa', '0', 'ACNI', 'aaaa,Phường Cổ Nhuế 2,Quận Bắc Từ Liêm, Thành phố Hà Nội', '38c74aba-582f-4578-acb5-140450755d47', NULL, NULL, 'NDOE', 'code 1234', '\"aaaaa\"', 'checked', '6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', '487c9ba8-c18c-4c89-ad52-b02b72e918b2', '02f612fa-37ac-44b3-8b1c-5a9b1a149a8d', 1, 10, 'Tủ lạnh|Máy giặt|Nóng lạnh', '2023-12-23 10:25:55', '2023-12-23 10:32:37'),
-('4526678a-18f8-40f4-9efc-1c7e4cec494d', 'aa', '0', 'AANU', 'số 1,Xã Liên Hà,Huyện Đan Phượng, Thành phố Hà Nội', '98b0fed8-b3b0-4f05-a16b-2680d6199c17', NULL, NULL, 'NDOE', 'code 1234', '\"aaa\"', 'unChecked', '6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', '6e5739c8-f3b1-474c-ae65-fa32b36979bb', 'df4481da-44d3-4fb7-8429-b4dd3353c613', 10, 10, 'Wifi', '2023-12-28 05:39:05', '2023-12-28 05:39:05'),
-('60cedf42-39c0-44de-a79e-e857ed4e3c9b', 'Cho thuê phòng trọ', '0', 'OTOI', 'số nhà 1,Phường Cổ Nhuế 1,Quận Bắc Từ Liêm, Thành phố Hà Nội', 'bc2724ec-f373-43ef-bceb-1f9aaef2541a', NULL, NULL, 'NDOE', 'code123', '\"Cho thuê phòng trọ full nội thất\"', 'unChecked', '32e6e1b1-893c-4c12-a4b2-6ea4c78ab8ea', '5806dcbb-9e46-40d6-8fb8-639cc64cb53b', '3ffa01b8-9d4b-4d24-b5a7-c1989f6a8e41', 1, 20, '', '2023-12-05 11:46:51', '2023-12-05 11:46:51'),
-('819a3f5e-99e5-45af-8024-d636c0b2c7cd', 'â', '0', 'AHOĐ', 'aa,Xã Cát Quế,Huyện Hoài Đức, Thành phố Hà Nội', '64e7c99b-0fe0-4292-b395-13e470c24c1a', NULL, NULL, 'NDOE', 'code 1234', '\"aa\"', 'checked', '6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', 'e97dbe28-2245-4090-bc62-adabb28f8239', 'dff974ae-b3e4-42df-b121-c451e2252a9c', 1, 10, '123', '2023-12-23 10:20:14', '2023-12-23 10:32:40'),
-('9cf8cb68-e7fd-4614-b3ea-0b3486e6d327', 'Cho thuê phòng trọ giá rẻ', '0', 'OUOH', 'số nhà 51, ngõ 165 đường dương quảng hàm,Phường Quan Hoa,Quận Cầu Giấy, Thành phố Hà Nội', '72f69ace-5526-47da-bbd2-207fbc30db95', NULL, NULL, 'NDOE', 'code123', '\"Cho thuê phòng trọ giá rẻ\"', 'checked', '457fb5e0-ac7c-43ec-ace1-74a4e8e7cd12', '65c5d64e-5dbc-44e2-b5a5-64093ea345ca', '91cba214-a377-4999-b065-9837befe397b', 3, 20, '', '2023-12-07 14:22:21', '2023-12-07 15:22:25'),
-('ebff2ccf-83a1-4186-80c9-10fc90bb3dde', 'Cho thuê phòng trọ', '0', 'OARN', 'Số nhà 1,Phường Cống Vị,Quận Ba Đình, Thành phố Hà Nội', '02955fe2-a99d-4610-abdc-bcae9bf2e0f1', NULL, NULL, 'NDOE', 'code123', '\"Cho thuê phòng trọ \"', 'checked', '6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', '7e0a8b02-c7c3-4e5f-81cd-44ad93652ad3', 'cdb408dd-5def-4dab-b467-317984dc36e6', 1, 20, '', '2023-12-05 11:49:21', '2023-12-05 11:50:30');
-
+('1','Phòng cho thuê - Không chung chủ- có điều hòa quận Đống Đa','5','OARN','Hào Nam, Ô Chợ Dừa, Đống Đa','72f69ace-5526-47da-bbd2-207fbc30db95',NULL,NULL,'NDOE','code123','\"Cho thuê phòng ở phố Hào Nam, diện tích 20m2+ công trình phụ 5m2 +bếp + chỗ phơi quần áo + sân rộng 30m2 để xe\"','checked','1','1','1',3000000,1,'Wifi|Điều Hòa','2023-12-05 11:49:21', '2023-12-05 11:50:30'),
+('2','Cho thuê phòng trọ ở ngõ 79B Lương Khánh Thiện','4','OUOA','Lương Khánh Thiện,Cầu Giấy','02955fe2-a99d-4610-abdc-bcae9bf2e0f1',NULL,NULL,'NDOE','code123','\"Cho thuê phòng trọ ở ngõ 79B Lương Khánh Thiện\"','checked','1','2','2',2500000,2,'Wifi|Nóng Lạnh','2023-12-05 11:49:21', '2023-12-05 11:50:30'),
+('3','Cho thuê phòng 1tr8 trong nhà 2 ngủ ngách 19 ngõ 1194 đường láng, đầy đủ nóng lạnh điều hoà','4','OUOA','Láng, Quan Hoa, Cầu Giấy','bc2724ec-f373-43ef-bceb-1f9aaef2541a',NULL,NULL,'NDOE','code123','\"Cần cho thuê phòng 1tr8 trong căn 2 ngủ, chung nvs với 1 phòng\"','checked','1','3','3',1800000,2,'Wifi|Nóng Lạnh|Điều Hòa','2023-12-05 11:49:21', '2023-12-05 11:50:30'),
+('4','Tìm 1 nữ ở ghép - Đầu tháng có thể vào luôn','5','OUOA','92 Nguyễn Khánh Toàn, Phường Quan Hoa, Quận Cầu Giấy, Hà Nội','7a0f0e7f-0c64-456a-a64b-ad4dece96c16',NULL,NULL,'NDOE','code 1234','\"Nhà 2n1k, có bếp và phòng khách riêng như chung cư\"','checked','1','4','4',2000000,1,'Wifi|Nóng Lạnh|Điều Hòa','2023-12-05 11:49:21', '2023-12-05 11:50:30'),
+('5','Tìm người ở ghép ( nữ, sinh viên or đi làm)','5','OUOA','Nguyễn Khang, Yên Hoà, Cầu Giấy','7a0f0e7f-0c64-456a-a64b-ad4dece96c16',NULL,NULL,'NDOE','code 1234','\"Nhà sạch sẽ, ở với chủ, an toàn, gần chợ, gần cv, giá 1 triệu/ người/ tháng, tiền điện 4k/ số. Nước 50k/ người/ tháng.\"','checked','1','5','5',1000000,3,'Wifi|Nóng Lạnh|Điều Hòa','2023-12-05 11:49:21', '2023-12-05 11:50:30'),
+('6','CHO THUÊ PHÒNG STUDIO 2N1K, 1BẾP, 1 BAN CÔNG - 2A NGÕ 39 TÚ MỠ, ĐỦ ĐỒ THANG MÁY GIÁ CHỈ 6TR ','4','OUOA','Số 2A ngõ 39, Đường Tú Mỡ, Phường Trung Hòa, Cầu Giấy, Hà Nội','7a0f0e7f-0c64-456a-a64b-ad4dece96c16',NULL,NULL,'NDOE','code123','\"Studio 2 phòng ngủ 1 khách 1 bếp 1 vs 1 ban công.\"','checked','1','6','6',6000000,NULL,'Wifi|Nóng Lạnh|Điều Hòa','2023-12-05 11:49:21', '2023-12-05 11:50:30'),
+('7','Cho thuê nhà trọ, phòng trọ đường Xuân Thuỷ, Cầu Giấy (đối diện học viện báo chí và tuyên truyền)','5','OUOA','Số 2 ngõ 23, Đường Xuân Thủy, Phường Dịch Vọng Hậu, Cầu Giấy, Hà Nội','7a0f0e7f-0c64-456a-a64b-ad4dece96c16',NULL,NULL,'NDOE','code123','\"Cho thuê phòng.\"','checked','1','7','7',4500000,NULL,'Wifi|Nóng Lạnh|Điều Hòa','2023-12-05 11:49:21', '2023-12-05 11:50:30'),
+('8','cho thuê phòng trọ sinh viên, hộ gia đình tại Doãn Kế Thiện, quận Cầu Giấy, ngõ ô tô','4','OUOA','Ngõ 56, Phố Doãn Kế Thiện, Phường Mai Dịch, Cầu Giấy, Hà Nội','7a0f0e7f-0c64-456a-a64b-ad4dece96c16',NULL,NULL,'NDOE','code 1234','\"Cho thuê phòng trọ cho sinh viên, nhà ở cho hộ gia đình. Nhà 4 tầng, 1 tum.\"','checked','1','8','8',4000000,NULL,'Wifi|Nóng Lạnh|Điều Hòa','2023-12-05 11:49:21', '2023-12-05 11:50:30'),
+('9','Chính chủ cho thuê phòng trọ 343 Đội Cấn','5','OARN','343, Đường Đội Cấn, Phường Liễu Giai, Ba Đình, Hà Nội','98b0fed8-b3b0-4f05-a16b-2680d6199c17',NULL,NULL,'NDOE','code123',' \"Phòng ở ngõ 343 Đội Cấn, ô tô cách nhà 100m.\"','checked','1','9','9',2400000,NULL,'Wifi|Nóng Lạnh|Điều Hòa','2023-12-05 11:49:21', '2023-12-05 11:50:30'),
+('10','Cho thuê phòng trọ diện tích 18 m2','4','OUAB','Số 4 ngách 68/81 ngõ 173 Đường Hoàng Hoa Thám, Phường Ngọc Hà, Ba Đình, Hà Nội','38c74aba-582f-4578-acb5-140450755d47',NULL,NULL,'NDOE','code123','\"Cho thuê phòng trọ diện tích 18 m², trên tầng 2, cầu thang rộng rãi, nhà vệ sinh khép kín, điện nước công tơ riêng. \"','checked','1','10','10',1900000,NULL,'Wifi|Nóng Lạnh|Điều Hòa','2023-12-05 11:49:21', '2023-12-05 11:50:30');
 -- --------------------------------------------------------
 
 --
@@ -410,7 +435,8 @@ INSERT INTO `Users` (`id`, `name`, `password`, `phone`, `zalo`, `fbUrl`, `avatar
 ('457fb5e0-ac7c-43ec-ace1-74a4e8e7cd12', 'Datist Pham', '$2a$12$KCfQNZMtCaAQqp48XsM8Ve8XHBHDMU7PKqwEysV/9ht7KnbJnCJIi', '0384294882', '01832983912', 'https://facebook.com/123', 'https://res.cloudinary.com/djjv3stcm/image/upload/v1686151132/phongtro123/zjxwuawqc4v4l4i9phgp.png', 'R2', 'P1', '2023-06-07 14:17:34', '2023-06-07 15:22:50'),
 ('55659d58-38f8-40e3-97ea-c8a62ac58ee3', 'Datist Pham', '$2a$12$plVvc52Z7NRfC3q1wP53guiw4lQQGEPZqpfzsE/d6H7bsN/oY0UgW', '0388029483', NULL, NULL, NULL, 'R1', 'P1', '2023-06-03 12:06:39', '2023-12-07 02:57:33'),
 ('6cfe9b27-63c1-4c89-a8d4-cbd8a35b9f62', 'Dat', '$2a$12$iOBUCcfYCZxJRnR.7Qi6m.cpDTqGHKyfy6VI0gPFbjx2K7FqFI1s.', '0123456780', '', '', 'https://res.cloudinary.com/djjv3stcm/image/upload/v1701776973/phongtro123/ropmifxvgol6n6qqh5ms.jpg', 'R2', 'P1', '2023-12-05 11:48:29', '2023-12-05 11:49:34'),
-('dd10d060-c0c0-4482-b789-6457a7dcdcd9', 'Datist Pham', '$2a$12$wHNkMlDwLgT0xxa2.h.K6.IVRwwy31Sybg8ld6NxLPxwMlsWcOOay', '0383491381', '', '', 'https://res.cloudinary.com/djjv3stcm/image/upload/v1702216065/phongtro123/kzd4ga7k32ohrdhp33ny.svg', 'R2', 'P1', '2023-12-10 13:46:52', '2023-12-10 13:47:53');
+('dd10d060-c0c0-4482-b789-6457a7dcdcd9', 'Datist Pham', '$2a$12$wHNkMlDwLgT0xxa2.h.K6.IVRwwy31Sybg8ld6NxLPxwMlsWcOOay', '0383491381', '', '', 'https://res.cloudinary.com/djjv3stcm/image/upload/v1702216065/phongtro123/kzd4ga7k32ohrdhp33ny.svg', 'R2', 'P1', '2023-12-10 13:46:52', '2023-12-10 13:47:53'),
+('1','Trần Văn A','$2y$10$OzIMvmetGivhv4ouMemUyueyMeX4.QDUcZ5izNK282TBRO0D4zV7y','982691222','982691222','https://www.facebook.com/profile.php?id=100090749167007',NULL,'R2','P1', '2023-12-10 13:46:52', '2023-12-10 13:47:53');
 
 --
 -- Indexes for dumped tables

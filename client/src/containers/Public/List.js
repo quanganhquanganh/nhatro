@@ -53,7 +53,7 @@ const List = ({ categoryCode, postId }) => {
     }
 
     if (sort === 1) searchParamsObject.order = ["star", "DESC"];
-    dispatch(getPostsLimit({ ...searchParamsObject, limit: 5 }));
+    dispatch(getPostsLimit({ ...searchParamsObject, limit: 4 }));
     console.log(searchParamsObject);
   }, [searchParams, categoryCode, sort]);
   // console.log(searchParamsObject)
