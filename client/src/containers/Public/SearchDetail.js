@@ -9,7 +9,7 @@ import { useLocation } from 'react-router-dom'
 
 
 const SearchDetail = () => {
-  const { prices, areas } = useSelector(state => state.app)
+  const { provinces, areas, prices, categories } = useSelector(state => state.app)
   const location = useLocation()
 
 

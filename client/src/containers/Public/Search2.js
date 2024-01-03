@@ -12,7 +12,7 @@ const Search2 = () => {
 
   const [isShowModal, setIsShowModal] = useState(false)
   const [content, setContent] = useState([])
-  const { provinces, areas, prices, categories } = useSelector(state => state.app)
+  const { provinces, areas, prices, categories, utilities } = useSelector(state => state.app)
   const [name, setName] = useState('')
   const [queries, setQueries] = useState({})
   const [arrMinMax, setArrMinMax] = useState({})
@@ -103,6 +103,14 @@ const Search2 = () => {
         >
           <SearchItem IconBefore={<RiCropLine />} IconAfter={<BsChevronRight color='rgb(156, 163, 175)' />}
             text={queries.area} defaultText={'Chọn diện tích'} />
+        </div>
+        <div className="cursor-pointer"
+          onClick={() => {
+            handleShowModal(utilities, 'utilities', 'Chọn tiện ích')
+          }}
+        >
+          <SearchItem IconBefore={<RiCropLine />} IconAfter={<BsChevronRight color='rgb(156, 163, 175)' />}
+            text={queries.utilities} defaultText={'Chọn tiện ích'} />
         </div>
 
         <button

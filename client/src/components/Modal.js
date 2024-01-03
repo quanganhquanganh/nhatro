@@ -291,11 +291,11 @@ const Modal = ({ setisShowModal, content, name, handleSubmit, queries, arrMinMax
                       onChange={(e) => {
                         if (list?.find(item2 => item2.id === item.id)) {
                           setList(list?.filter(item2 => item2.id !== item.id))
-                          setFilterUtilities(list?.filter(item2 => item2.id !== item.id))
+                          // setFilterUtilities(list?.filter(item2 => item2.id !== item.id))
                         }
                         else {
                           setList(prev => ([...prev, { id: item.id, val: item.val }]));
-                          setFilterUtilities(prev => ([...prev, { id: item.id, val: item.val }]));
+                          // setFilterUtilities(prev => ([...prev, { id: item.id, val: item.val }]));
                         }
                       }}
                       inputProps={{ 'aria-label': 'controlled' }}
